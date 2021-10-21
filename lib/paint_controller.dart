@@ -58,12 +58,12 @@ class PaintController extends ChangeNotifier {
    */
   bool get canRedo => _paintHistory.canRedo();
 
-  /*
-   * リスナー実行
-   */
-  void notifyListeners() {
-    notifyListeners();
-  }
+  // /*
+  //  * リスナー実行
+  //  */
+  // void notifyListeners() {
+  //   notifyListeners();
+  // }
 
   /*
    * クリア
